@@ -5,10 +5,10 @@ import { getCocktails } from "../../Scripts/network-functions";
 import ResultCard from "../ResultCard/ResultCard";
 import styles from './SearchResults.module.css';
 
-const SearchResults = ({ searchFor }) => {
+const SearchResults = ({ searchTerm }) => {
     // gets list of cocktails with the ingredient that we searchedFor
-    const { data, error } = useQuery(["drink search", searchFor], () =>
-        getCocktails(searchFor)
+    const { data, error } = useQuery(["drink search", searchTerm], () =>
+        getCocktails(searchTerm)
     );
     // remembers the last thing searched, if its the same gives the same set of data
     const cocktails = useMemo(() => {

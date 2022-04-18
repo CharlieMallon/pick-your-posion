@@ -2,7 +2,7 @@ import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import SearchPage from "./Pages/SearchPage/SearchPage";
-import RecipePage from "./Pages/RecipePage/recipePage";
+import RecipePage from "./Pages/RecipePage/RecipePage";
 import { QueryClient, QueryClientProvider} from 'react-query'
 
 const queryClient = new QueryClient();

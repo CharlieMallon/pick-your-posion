@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pick-your-posion/static/css/main.6da1a668.css",
+    "main.js": "/pick-your-posion/static/js/main.df6426d0.js",
+    "static/js/787.2687e0f7.chunk.js": "/pick-your-posion/static/js/787.2687e0f7.chunk.js",
+    "static/media/drinks.jpg": "/pick-your-posion/static/media/drinks.e428c9cb725f229ea03b.jpg",
+    "index.html": "/pick-your-posion/index.html",
+    "main.6da1a668.css.map": "/pick-your-posion/static/css/main.6da1a668.css.map",
+    "main.df6426d0.js.map": "/pick-your-posion/static/js/main.df6426d0.js.map",
+    "787.2687e0f7.chunk.js.map": "/pick-your-posion/static/js/787.2687e0f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6da1a668.css",
+    "static/js/main.df6426d0.js"
+  ]
+}
